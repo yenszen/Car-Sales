@@ -5,9 +5,9 @@ export const addItem = item => {
   };
 };
 
-export const removeItem = itemId => {
+export const removeItem = item => {
   return {
     type: "REMOVE_FEATURE",
-    payload: itemId
+    payload: item
   };
 };
